@@ -8,6 +8,11 @@
     h2{
       font-family: Gill Sans, sans-serif;
       font-size: 30px;
+      color: #5C5858;
+    }
+    
+    h3{
+      color:#5C5858
     }
    body {
     font-family: Gill Sans, sans-serif;
@@ -15,7 +20,14 @@
     margin: 0;
     padding: 0;
 }
-
+    
+.divider {
+      width: 100%; /* 横向占满整个容器 */
+      height: 2px; /* 分割线的高度 */
+      background-color: #ccc; /* 分割线的颜色 */
+      margin: 20px 0; /* 上下边距，根据需要调整 */
+    }
+    
 .content-container {
     width: 60%;
     margin: 0 auto;
@@ -54,7 +66,7 @@ li a:hover {
         .text-overlay {
             position: absolute;
             bottom: 20%;
-            left: 60%; 
+            left: 50%; 
             color: white;
             font-family: Gill Sans, sans-serif;
             font-size: 70px; 
@@ -95,7 +107,6 @@ li a:hover {
 
 .theme {
     background-color: white;
-    border: 1px solid black;
     padding: 20px;
     width: 30%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -105,13 +116,6 @@ li a:hover {
     padding: 20px;
     text-align: center;
 }
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
     
   </style>
 
@@ -120,10 +124,10 @@ footer {
 <header>
     <nav>
         <ul>
-            <li><a href="#home">ABOUT ME</a></li>
+            <li><a href="#aboutme">ABOUT ME</a></li>
             <li><a href="#profile">PROFILE</a></li>
             <li><a href="#contact">CONTACT</a></li>
-            <li><a href="#community">FAN FACT</a></li>
+            <li><a href="#fanfacts">FAN FACTS</a></li>
         </ul>
     </nav>
 </header>
@@ -137,6 +141,8 @@ footer {
 
     <h2>ABOUT ME</h2>
     <p>I am an international student who has come to Canada from China for more than one year. I used to live in Shenyang, China for 18 years. It is a city with a long history and many memories for me. I am a very sensitive person, like traveling, watching the sea, watching movies, taking photos and love animals. But I also like to explore new things, like I made a decision to study abroad, I hope to learn about different perspectives of the world. My dream is to be a director and a team to make many excellent projects and show our ideas to more people. </p>
+    <br>
+  <div class="divider"></div>
   <br>
     <div class="themes">
         <div class="theme">
@@ -162,7 +168,9 @@ footer {
           <p>- Dressing Style + Personality = COOOOOOL</p>
       </div>
     </div>
-
+ <br>
+  <div class="divider"></div>
+  
     <div class="story-introduction">
         <h2>「
 "Embrace the unfamiliar, for it is in the exploration of new horizons that we discover the true essence of ourselves."」</h2>
